@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="boxInput">
+            <p class="paragrafo">Insira seu Ano de Nascimento</p>
+            <input type="number" placeholder="Seu Ano de Nascimento" id="idinputbirth">
+            <p class="paragrafo">Selecione seu Gênero</p>
+            <input type="radio" name="input" id="idinputh" checked>
+            <label for="inputh">Masculino</label>
+            <input type="radio" name="input" id="idinputm">
+            <label for="inputm">Feminino</label>
+            <input type="radio" name="input" id="idinputnb">
+            <label for="inputnb">Nao Binário</label>
+            <br>
+            <input type="button" value="Verificar" onclick="verify()" id="idinputbutton">                         
+        </div>
+
+        <div id="resultados">
+            <p class="paragrafo" id="idparagrafo"></p>
+            <img src="" class="resultadosimagem" id="resultadosimagem"> 
+            <!--document. getElementById(img). src =”novaImagem. -->
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p> &copy; Curso em Vídeo</p> 
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
